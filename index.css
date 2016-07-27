@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+/*注意：这里很多bottom都拼成了buttom，别改了效果是对的【。*/
+*{padding:0;margin:0;font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;}
+input{border:none;}
+li{list-style:none;}
+.comWidth{width:1020px;margin:0 auto;}
+.com-bgc{background-color:#d9cb9e;}
+.fl{float:left;}
+.fr{float:right;}
+
+/*header*/
+.header{height:155px;}
+/*logo*/
+.upper{box-shadow:16px -16px #d9b94c;text-shadow:#000 1px 1px 2px;background-color:#fed95d;margin-left:74px;margin-top:38px;font-size:26px;text-align:center;line-height:76px;width:231px;height:76px;color:#fff;}
+
+/*search-box*/
+.search-text,.search-btn{height:34px;margin-top:60px;color:#fff;}
+.search-text{width:316px;background-color:#738483;margin-right:12px;padding-left:8px;font-size:14px;box-shadow:10px -6px #455352;}
+.search-btn{width:51px;background-color:#dc3522;margin-right:113px;box-shadow:6px -6px #962418;}
+
+/*nav-box*/
+.nav-box{height:83px;}
+.nav-bar{margin-left:35px;border:1px #858585 solid;height:52px;width:947px;background-color:#374140;box-shadow:9px -7px #738483;}
+.nav-bar li{list-style:none;float:left;margin-left:49px;width:87px;height:52px;line-height:52px;font-size:18px;color:#fff;}
+.nav-bar .active{background-color:#dc3522;height:68px;line-height:68px;padding-left:36px;margin-top:7px;}
+/*小角颜色#962418;*/
+
+/*comment-panel*/
+.comment-panel{position:relative;height:935px;}
+/*左侧区域*/
+.left-area{position:relative;background-color:#ece9df;height:417px;width:627px;margin-left:36px;}
+.title,.comments{position:absolute;font-size:14px;color:#fff;}
+.title{background-color:#dc3522;top:28px;right:41px;width:606px;height:45px;line-height:45px;text-indent:41px;}
+.comments{background-color:#374140;top:43px;right:60px;width:178px;height:39px;line-height:39px;text-indent:42px;}
+.pic{margin-top:93px;margin-left:20px;}
+.content{font-size:12px;line-height:20px;margin-top:22px;margin-left:22px;color:#374140;}
+.more-btn{background-color:#dc3523;font-size:10px;color:#fff;width:78px;height:37px;line-height:37px;text-align:center;margin-right:56px;margin-buttom:18px;}
+/*右侧区域*/
+.right-area{position:relative;border:#e4e041 1px solid;border-width:0px 1px 1px 1px;background-color:#d9b94c;height:439px;width:275px;color:#fff;z-index:10;}
+.recent{position:absolute;background-color:#918d22;top:28px;right:7px;font-size:20px;width:283px;height:45px;text-indent:40px;line-height:45px;text-shadow:#000 1px 1px 2px;}
+.right-area ul{margin-top:94px;margin-buttom:10px;}
+.right-area li{background:url(user.png) 8px center no-repeat;padding-left:82px;padding-top:12px;height:67px;padding-buttom:50px;font-size:14px;line-height:20px;}
+/*右边条子*/
+.border1-1,.border2,.border1-2{position:absolute;right:59px;background-color:#ece9df;width:21px;height:417px;}
+.border1-2{bottom:78px;}
+.border2{position:absolute;right:36px;background-color:#dfdccd;width:23px;height:935px;}
+/*中间间隔*/
+.cut-left,.cut-right{position:absolute;top:417px;height:23px;background-color:#dfdccd;}
+.cut-left{left:59px;width:604px;}
+.cut-right{right:59px;width:21px;}
+/*下面那块的头像区*/
+.user-box{margin-top:80px;margin-left:5px;width:280px;height:351px;}
+.user-head{background:url(user-head.png)left center no-repeat;width:86px;height:86px;margin-right:4px;margin-bottom:3px;}
+
+/*页码*/
+.page-bar{position:absolute;height:78px;width:925px;left:59px;bottom:0px;background-color:#dfdccd;z-index:0;}
+.one{margin-left:357px;margin-top:23px;}
+.page-bar li{float:left;background-color:#374140;width:35px;height:35px;font-size:16px;color:#fff;line-height:35px;text-indent:13px;margin-right:10px;}
+.page-bar .active{background-color:#d9b94c;}
+.omit{color:#000;font-size:16px;margin-top:43px;}
+.eight{margin-top:23px;margin-left:10px;}
+
+/*footer*/
+.footer{height:149px;}
+.footer .upper{margin-top:40px;}
+/*contact*/
+.contact{height:85px;margin-right:75px;margin-top:35px;background-color:#738483;box-shadow:17px -15px #455352;line-height:85px;}
+
+.twitter,.rss{font-size:16px;color:#fff;}
+.twitter{background:url(twitter.png)11px center no-repeat;padding-left:77px;padding-right:35px;}
+.rss{background:url(rss.png)left center no-repeat;padding-left:69px;padding-right:64px;}
